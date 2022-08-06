@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="products">
+                <h2>Items</h2>
+                <br>
+                <div class="listItem" id="friedEggs">
+                    <p>Fried Eggs $8.00</p>
+                    <button type="button" class="Button" id="Egg-Button" onclick="addEgg(); updateCart();">Add To Cart</button>
+                </div>
+                <div class="listItem" id="bacon">
+                    <p>Bacon $5.00</p>
+                    <button type="button" class="Button" id="Bacon-Button" onclick="addBacon(); updateCart();">Add To Cart</button>
+                </div>
+            </div>
+            <div class="myCart">
+                <h2>My Cart</h2>
+                <br>
+                <div class="cartEggs" id="eggCartObject">
+                    <p>Fried Eggs <span id="eggCartAmount"> x0</span></p>
+                </div>
+                <div class="cartBacon" id="baconCartObject">
+                    <p>Bacon <span id="baconCartAmount">x0</span></p>
+                </div>
+                <br>
+                <hr>
+                <div class="moneyCart">
+                    <p id="subTotalCart">Subtotal: </p>
+                    <p id="taxCart">Tax :</p>
+                    <p id="totalCart">Total: </p>
+                </div>
+            </div>
+            <div class="test">
+                <h2>Real Time ISS position</h2>
+                <h1 id="lat"></h1>
+                <h1 id="lon"></h1>
+            </div>
+            <div class="pics">
+                <h2>Click to get an image of a cat</h2>
+                <button class="Button" onclick="getCat()">Cat Button</button>
+                <img src="https://cdn.shibe.online/shibes/8c25281c6a9a9f8948b3e12fc30637ae13979e50.jpg" alt="" id="image" width="440" height="440">
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

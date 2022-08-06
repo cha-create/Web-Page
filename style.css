@@ -1,0 +1,121 @@
+.Button {
+    background-color: black;
+    padding: 10px;
+    margin: 15px;
+    display: block;
+    color: white;
+}
+
+.listItem {
+    border: 1px solid gray;
+    width: 90%;
+    margin: 12px;
+    border-radius: 15px;
+}
+
+.pics {
+    background-color: white;
+    margin-left: 50px;
+    width: 25%;
+    border-radius: 15px;
+    margin-right: 10%;
+}
+
+.pics h2 {
+    text-align: center;
+}
+
+.pics .Button {
+    margin-left: 35%;
+}
+
+.test {
+    background-color: white;
+    margin-left: 50px;
+    width: 25%;
+    border-radius: 15px;
+    height: 50%;
+}
+
+.test h2,
+.test p {
+    text-align: center;
+}
+
+#retreivedText {
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 95%;
+    margin-left: 2%;
+}
+
+.listItem p {
+    margin: 15px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+#lat,
+#lon {
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+body {
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Button:active {
+    background-color: gray;
+}
+
+
+
+.cartBacon {
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 10px auto;
+}
+
+.cartEggs {
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.cartEggs p,
+.cartBacon p {
+    margin-left: 10px;
+}
+
+.myCart {
+    background-color: white;
+    margin-left: 50px;
+    border-radius: 15px;
+    width: 25%;
+    height: 100%;
+}
+
+.myCart h2 {
+    text-align: center;
+}
+
+.products {
+    width: 25%;
+    background-color: white;
+    border-radius: 15px;
+    height: 50%;
+}
+
+.products h2 {
+    text-align: center;
+}
