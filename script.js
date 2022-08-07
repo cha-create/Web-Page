@@ -19,7 +19,15 @@ async function getCat() {
     let response = await fetch("http://shibe.online/api/cats");
     let data = await response.json();
     document.getElementById('image').src = data;
-    console.log(data);
+    console.log("Cat-picture: " + data);
+
+}
+
+async function getDog() {
+    let response = await fetch("http://shibe.online/api/shibes");
+    let data = await response.json();
+    document.getElementById('image').src = data;
+    console.log("Dog-picture: " + data);
 
 }
 

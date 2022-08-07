@@ -46,9 +46,12 @@
                 <h1 id="lat"></h1>
                 <h1 id="lon"></h1>
             </div>
-            <div class="pics">
-                <h2>Click to get an image of a cat</h2>
-                <button class="Button" onclick="getCat()">Cat Button</button>
+            <div class="catPics">
+                <h2>Click to get an image of a cat or dog</h2>
+                <div class="buttons">
+                    <button class="Button" id="catButton" onclick="getCat()">Cat Button</button>
+                    <button class="Button" id="dogButton" onclick="getDog()">Dog Button</button>
+                </div>
                 <img src="https://cdn.shibe.online/shibes/8c25281c6a9a9f8948b3e12fc30637ae13979e50.jpg" alt="" id="image" width="440" height="440">
             </div>
         </div>

@@ -13,7 +13,8 @@
     border-radius: 15px;
 }
 
-.pics {
+.catPics,
+.dogPics {
     background-color: white;
     margin-left: 50px;
     width: 25%;
@@ -21,11 +22,13 @@
     margin-right: 10%;
 }
 
-.pics h2 {
+.catPics h2,
+.dogPics h2 {
     text-align: center;
 }
 
-.pics .Button {
+.catPics .Button,
+.dogPics .Button {
     margin-left: 35%;
 }
 
@@ -54,12 +57,25 @@
 }
 
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+#dogButton {
+    margin-right: 100%;
+}
+
+#catButton {
+    margin-left: 15%;
+}
 
 .container {
     display: flex;
     flex-direction: row;
     margin-left: 5%;
     margin-top: 15%;
+
 }
 
 #lat,
