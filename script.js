@@ -71,6 +71,8 @@ function updateCart() {
     }
     let subTotal = (eggsInCart * eggCost) + (baconInCart * baconCost);
     document.getElementById("subTotalCart").innerHTML = "Subtotal: $" + subTotal + ".00";
+
+    // I absoluteley hate everything about this
     let tax = subTotal / taxPercent;
     document.getElementById("taxCart").innerHTML = "Tax: $" + tax;
     let total = subTotal + tax;
